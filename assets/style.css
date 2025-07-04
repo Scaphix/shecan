@@ -4,6 +4,35 @@ body {
       background-color: white;
       color: #444; 
     }
+
+   /*Home page header hero image */ 
+.top{
+display: flex;
+align-items: flex-end;
+position: relative;
+}
+
+.content{
+    width:100%;
+display: flex;
+flex-direction: column;
+position: absolute;
+align-items: center;
+justify-content: flex-end;
+background-color:rgba(242, 189, 219, 0.6);
+color: #000C2E;
+
+}
+.button{
+background-color:#000C2E;
+color: rgb(242, 189, 219);
+margin-bottom: 10px;
+}
+p{
+    margin-top:0px;
+    font-size: large;
+}
+     /*Home page main content */ 
     #course-offers {
      display: flex;
      flex-direction: column;
@@ -20,6 +49,7 @@ body {
     }
     main h1{
        margin:20px; 
+       text-align: center;
     }
     .course h2 {
       color: #000C2E;
@@ -32,6 +62,7 @@ body {
       color: #000C2E;
     }
 
+  /*Home page main  */ 
 img{
     background-position: center;
     width:100%;
@@ -39,7 +70,7 @@ img{
 main{
     height: 200vh;
 }
-
+  /*footer */ 
 footer {
    padding: 20px 20px;
    left: 0;
