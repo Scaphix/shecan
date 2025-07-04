@@ -1,6 +1,6 @@
 
 body {
-      
+      font-family: "poppins", sans-serif;
       background-color: white;
       color: #444; 
     }
@@ -73,8 +73,10 @@ main{
     height: 200vh;
 }
 h1,h2{
-    font-family: Anton, sans-serif;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
     
+
 }
   /*footer */ 
 footer {
