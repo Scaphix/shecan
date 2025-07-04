@@ -50,10 +50,12 @@ p{
     main h1{
        margin:20px; 
        text-align: center;
+       
     }
     .course h2 {
       color: #000C2E;
       margin-top: 5px;
+     
     }
     .course ul {
       padding-left: 20px;
@@ -69,6 +71,10 @@ img{
 }
 main{
     height: 200vh;
+}
+h1,h2{
+    font-family: Anton, sans-serif;
+    
 }
   /*footer */ 
 footer {
