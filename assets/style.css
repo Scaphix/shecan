@@ -1,0 +1,17 @@
+img{
+    background-position: center;
+    width:100%;
+
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000C2E;
+   color: white;
+   text-align: center;
+}
+
+  
