@@ -5,9 +5,30 @@ body {
       color: #444; 
        min-height: 100vh;
     }
-
-
-
+    /*navbar */  
+.navbar-nav .nav-link{
+   color:#02164c;
+  font-size: large;
+    font-weight: bold;
+}
+nav a:hover {
+ background-color:pink;
+ color: yellow;
+}
+.navbar-nav .nav-link.active{
+  
+ color:#02164c;
+  font-size: large;
+  font-weight: bold; 
+  text-decoration: underline; 
+  text-decoration-thickness:4px ;
+  text-decoration-color: yellow;
+}
+.navbar-text{
+    font-size: large;
+    text-transform: uppercase;
+    color: #02164c;
+}
    /*Home page header hero image */ 
 .top{
 display: flex;
