@@ -11,10 +11,8 @@ body {
   font-size: large;
     font-weight: bold;
 }
-nav a:hover {
- background-color:pink;
- color: yellow;
-}
+
+
 .navbar-nav .nav-link.active{
   
  color:#02164c;
@@ -24,11 +22,25 @@ nav a:hover {
   text-decoration-thickness:4px ;
   text-decoration-color: yellow;
 }
+a.nav-link:hover,
+a.nav-link.active:hover{
+   background-color:#02164c;
+ color: white;}
+
 .navbar-text{
     font-size: large;
     text-transform: uppercase;
     color: #02164c;
+  }
+  
+    #navbarText { 
+       justify-content: flex-end;
+     
 }
+li {
+  margin:0 20px;
+}
+   
    /*Home page header hero image */ 
 .top{
 display: flex;
