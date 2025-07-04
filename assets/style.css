@@ -122,7 +122,32 @@ footer {
    width: 100%;
    background-color: #000C2E;
    color: white;
-   text-align: center;
+   
 }
 
-  
+ /* Footer*/
+  #social-media {
+    text-align: center;
+    padding: 20px 0;
+   display: flex;
+   justify-content: space-evenly;
+    list-style-type: none;
+  }
+  #social-media i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
+  }
+ footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: small;
+ }
+ #footer{
+  display: flex;
+  justify-content: space-around;
+ }
+ h3{
+  text-align: center;
+ }
