@@ -1,11 +1,47 @@
+
+body {
+      
+      background-color: white;
+      color: #444; 
+    }
+    #course-offers {
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+    }
+    .course {
+      background-color: #fff;
+      border: 5px solid yellow;
+      border-radius: 8px;
+        width:100%;
+      padding: 20px;
+      margin-bottom: 10px;
+      
+    }
+    main h1{
+       margin:20px; 
+    }
+    .course h2 {
+      color: #000C2E;
+      margin-top: 5px;
+    }
+    .course ul {
+      padding-left: 20px;
+    }
+    .course li::marker {
+      color: #000C2E;
+    }
+
 img{
     background-position: center;
     width:100%;
-
+}
+main{
+    height: 200vh;
 }
 
 footer {
-   position: fixed;
+   padding: 20px 20px;
    left: 0;
    bottom: 0;
    width: 100%;
