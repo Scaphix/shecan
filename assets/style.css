@@ -28,9 +28,13 @@ a.nav-link.active:hover{
  color: white;}
 
 .navbar-text{
-    font-size: large;
+    
     text-transform: uppercase;
     color: #02164c;
+  }
+  .navbar-text h1{
+    font-size: medium;
+    
   }
   
     #navbarText { 
