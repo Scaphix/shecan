@@ -57,13 +57,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav  mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Trainings</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="signup.html">Join us</a>
+          <a class="nav-link active" href="signup.html">Join us</a>
         </li>
       </ul>
       
@@ -72,46 +72,34 @@
 </nav>
  <div class="top">
                          
-                         <img src="assets/images/hero.jpg" alt="confident woman in white t-shirt punching">
-                          <div class="content">
-                              <div><h1>Welcome to SHECAN training center!</h1></div>
-                              <div> <p>A safe place for women since 2008.</p></div>
-                               <div><a href="signup.html" class="btn btn-primary btn-lg button">Join us</a>
+                         <img src="assets/images/signup.jpg" alt="confident woman in white t-shirt punching">
+                          <div class="content cta-section">
+                              <div><h1>Join the Movement</h1></div>
+                              <div> <p>Empower yourself. Sign up today and start your self-defense journey</p></div>
+                               <div><a href="signup.html" class="btn btn-primary btn-lg button">Sign up</a>
                                </div>
                           </div>
  </div> 
 </header>
     <main> <!-- Content Area-->
-  <div id="course-offerts">
-    <h1>Our Self-Defense Courses</h1>
-    <div class="course">
-          <img src="assets/images/individual.jpg" alt="Woman performing palm heel strike">
-      <h2> Individual Course</h2>
-      <ul>
-        <li>One-on-one training tailored to your goals and fitness level</li>
-        <li>Personalized techniques based on your body type, experience, and comfort</li>
-        <li>Flexible scheduling — sessions by appointment</li>
-        <li>Ideal for those who prefer privacy or have specific needs</li>
-        <li>Focus on building confidence and mastering core self-defense skills at your pace</li>
-        <li>Great for beginners or those recovering from injury</li>
-        <li>Can be held at our studio or at your location</li>
-      </ul>
-    </div>
+ 
+  <div class="form-section">
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Create Password" required />
+        <div class="radio-buttons">
+                        <label for="Individial" >Individial class</label>
+                        <input name="course_preference"  id="Individial" type="radio" value="Individial" required checked>
+                        <br>
+                        <label  for="group" >Group class</label>
+                        <input name="course_preference" id="group" type="radio" value="group" required>
+                        <br>
+         </div>
+      <button type="submit" class="register-button">Start Your Training</button>
+    </form>
 
-    <div class="course">
-         <img src="assets/images/group.jpg" alt="Old women learning to fight">
-      <h2> Group Course</h2>
-      <ul>
-        <li>Train in a supportive, empowering small-group environment</li>
-        <li>Structured curriculum over several weeks ( 6 sessions)</li>
-        <li>Learn techniques through partner drills, games, and real-life scenarios</li>
-        <li>Encourages teamwork, confidence, and situational awareness</li>
-        <li>Lower cost per person — great value</li>
-        <li>Energizing and fun atmosphere</li>
-        <li>Great for friends, families, or colleagues who want to learn together</li>
-      </ul>
-    </div>
-
+    <p class="form-text">Already a member? <a href="#" >Log in</a></p>
   </div>
     </main>
   <footer>

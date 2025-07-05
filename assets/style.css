@@ -60,10 +60,25 @@ color: #000C2E;
 
 }
 .button{
-background-color:#000C2E;
+background-color: #000C2E;
 color: rgb(242, 189, 219);
-margin-bottom: 10px;
+margin-bottom: 10px; 
+border: none; 
+cursor: pointer;  
+   text-decoration: none;
+   /*Chatgpt code for button style */ 
+   transition: background-color 0.3s ease-in-out;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      border-radius: 20px;
 }
+    .button:hover {
+      background-color: #87003a;
+    }
+
+
+
+
 p{
     margin-top:0px;
     font-size: large;
@@ -114,6 +129,61 @@ h1,h2{
     
 
 }
+ /*Sign-up page main  */ 
+
+
+.form-section {
+      background: white;
+      padding: 2.5rem 3rem;
+      border-radius: 16px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+     margin:0 auto;
+    }
+
+ form {
+      display: flex;
+      flex-direction: column;
+           gap: 1rem;
+          
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      padding: 0.8rem;
+      border: 3px solid yellow;
+      border-radius: 8px;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+.register-button{
+background-color: #87003a;
+color: rgb(242, 189, 219);
+margin-bottom: 10px; 
+border: none; 
+    text-decoration: none;
+   /*Chatgpt code for button style */ 
+   transition: background-color 0.3s ease-in-out;
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      border-radius: 20px;
+}
+    .register-button:hover {
+      background-color:yellow;
+      color:#000C2E;
+    }
+form p a {
+  color:#87003a;
+ 
+}
+.form-text {
+   
+           font-size: larger;
+}
+
   /*footer */ 
 footer {
    padding: 20px 20px;
