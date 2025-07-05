@@ -81,13 +81,13 @@ cursor: pointer;
     }
 
 
-
-
 p{
     margin-top:0px;
-    font-size: large;
+    font-size: large;   
 }
-
+header p{
+   text-align: center;
+}
 
      /*Home page main content */ 
     #course-offers {
@@ -131,8 +131,9 @@ img{
 h1,h2{
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
-    
-
+   }
+h1{
+    text-align: center;
 }
  /*Sign-up page main  */ 
 
