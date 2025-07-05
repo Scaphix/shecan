@@ -80,10 +80,10 @@ cursor: pointer;
       background-color: #87003a;
     }
 
-
 p{
     margin-top:0px;
-    font-size: large;   
+    font-size: large;  
+    text-align: justify; 
 }
 header p{
    text-align: center;
@@ -117,6 +117,7 @@ header p{
     }
     .course ul {
       padding-left: 20px;
+       text-align: justify; 
     }
     .course li::marker {
       color: #000C2E;
