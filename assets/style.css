@@ -228,3 +228,29 @@ footer {
  h3{
   text-align: center;
  }
+.contact{
+  display: inline-grid;
+   background-color: #000C2E;
+        width: 100%;
+ 
+    }
+.span{
+  font-weight: bold;
+}
+
+/* Media query: sm (576px and up)*/
+@media screen and (min-width:576px){
+     .navbar-text h1{
+    font-size: x-large;
+    
+  }
+ 
+
+
+/* Media query: large screen (1200px and up)*/
+@media screen and (min-width:1200px){
+   .navbar-text h1{
+    font-size: xx-large;
+    
+  }
+}
