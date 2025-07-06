@@ -280,8 +280,7 @@ footer {
 #highlights{
   display: flex;
   flex-direction: row;
- 
-   
+    
 }
 .highlights-card{
   margin-right: 5px;
