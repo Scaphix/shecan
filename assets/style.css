@@ -58,7 +58,7 @@ display: flex;
 flex-direction: column;
 position: absolute;
 align-items: center;
-justify-content: flex-end;
+
 background-color:rgba(242, 189, 219, 0.6);
 color: #000C2E;
 
@@ -245,9 +245,22 @@ footer {
     
   }
  
+}
+/* Media query: large screen: (992px and up)*/
+@media screen and (min-width:992px){
+    img{
+    background-position: center;
+        	border-radius: 8px;
+}
+#body{
+  width:80%;
+  max-width: 1650px;
+  margin:0 auto;
+}
+ 
+}
 
-
-/* Media query: large screen (1200px and up)*/
+/* Media query: x-large screen (1200px and up)*/
 @media screen and (min-width:1200px){
    .navbar-text h1{
     font-size: xx-large;
