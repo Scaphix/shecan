@@ -220,7 +220,7 @@ footer {
 }
 #footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .contact {
@@ -272,6 +272,16 @@ footer h3 {
   .highlights-card {
     margin-right: 5px;
   }
+
+/* Footer responsiveness*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-basis: auto;
+  
+}
+
 }
 
 /* Media query: large screen: (992px and up)*/
