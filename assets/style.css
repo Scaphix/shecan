@@ -143,7 +143,7 @@ h1{
   flex-direction: column;
   justify-content:space-around;
   color:white;
-   border-radius: 8px;
+  
   
 }
 .highlights-card{
@@ -154,9 +154,12 @@ width: 100%;
   background-color:rgb(242, 189, 219);
   color: #000C2E;
    border: 5px solid yellow;
+   margin-bottom: 10px;
+   border-radius: 8px;
 }
-i {
+section i {
   font-size: 40px;
+  margin-bottom: 15px;
 }
 
  /*Sign-up page main  */ 
