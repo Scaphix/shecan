@@ -1,311 +1,295 @@
-
 body {
-      font-family: "poppins", sans-serif;
-      background-color: white;
-      color: #444; 
-       min-height: 100vh;
-    }
-    /*navbar */  
-.navbar-nav .nav-link{
-   color:#02164c;
+  font-family: "poppins", sans-serif;
+  background-color: white;
+  color: #444;
+  min-height: 100vh;
+}
+/*navbar */
+.navbar-nav .nav-link {
+  color: #02164c;
   font-size: large;
-    font-weight: bold;
+  font-weight: bold;
 }
 
-
-.navbar-nav .nav-link.active{
-  
- color:#02164c;
+.navbar-nav .nav-link.active {
+  color: #02164c;
   font-size: large;
-  font-weight: bold; 
-  text-decoration: underline; 
-  text-decoration-thickness:4px ;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
   text-decoration-color: yellow;
 }
 a.nav-link:hover,
-a.nav-link.active:hover{
-   background-color:#02164c;
- color: white;}
+a.nav-link.active:hover {
+  background-color: #02164c;
+  color: white;
+}
 
-.navbar-text{
-    
-    text-transform: uppercase;
-    color: #02164c;
-  }
-  .navbar-text h1{
-    font-size: medium;
-    
-  }
-  
-    #navbarText { 
-       justify-content: flex-end;
-     
+.navbar-text {
+  text-transform: uppercase;
+  color: #02164c;
+}
+.navbar-text h1 {
+  font-size: medium;
+}
+
+#navbarText {
+  justify-content: flex-end;
 }
 li {
-  margin:0 20px;
-}
-   
-   /*Home page header hero image */ 
-.top{
-display: flex;
-align-items: flex-end;
-position: relative;
+  margin: 0 20px;
 }
 
-.content{
-    width:100%;
-display: flex;
-flex-direction: column;
-position: absolute;
-align-items: center;
-
-background-color:rgba(242, 189, 219, 0.6);
-color: #000C2E;
-
-}
-.button{
-background-color: #000C2E;
-color: rgb(242, 189, 219);
-margin-bottom: 10px; 
-border: none; 
-cursor: pointer;  
-   text-decoration: none;
-   /*Chatgpt code for button style */ 
-   transition: background-color 0.3s ease-in-out;
-      padding: 0.9rem 2rem;
-      font-size: 1rem;
-      border-radius: 20px;
-}
-    .button:hover {
-      background-color: #87003a;
-    }
-
-p{
-    margin-top:0px;
-    font-size: large;  
-    text-align: justify; 
-}
-header p{
-   text-align: center;
+/*Home page header hero image */
+.top {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
 
-     /*Home page main content */ 
-    #course-offers {
-     display: flex;
-     flex-direction: column;
-      justify-content: center;
-    }
-    .course {
-      background-color: #fff;
-      border: 5px solid yellow;
-      border-radius: 8px;
-        width:100%;
-      padding: 20px;
-      margin-bottom: 10px;
-      
-      
-    }
-    main h1{
-       margin:20px; 
-       text-align: center;
-       
-    }
-    .course h2 {
-      color: #000C2E;
-      margin-top: 5px;
-     
-    }
-    .course ul {
-      padding-left: 20px;
-       text-align: justify; 
-    }
-    .course li::marker {
-      color: #000C2E;
-    }
-
-  /*Home page main  */ 
-img{
-    background-position: center;
-    width:100%;
-}
-
-h1,h2{
-    font-family: "Anton", sans-serif;
-    letter-spacing: 2px;
-   }
-h1{
-    text-align: center;
-}
-  /*Course highlight content styling  */ 
-
-#highlights{
+.content {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
-  color:white;
-  
-  
+  position: absolute;
+  align-items: center;
+
+  background-color: rgba(242, 189, 219, 0.6);
+  color: #000c2e;
 }
-.highlights-card{
+.button {
+  background-color: #000c2e;
+  color: rgb(242, 189, 219);
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  /*Chatgpt code for button style */
+  transition: background-color 0.3s ease-in-out;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: #87003a;
+}
+
+p {
+  margin-top: 0px;
+  font-size: large;
+  text-align: justify;
+}
+header p {
+  text-align: center;
+}
+
+/*Home page main content */
+#course-offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.course {
+  background-color: #fff;
+  border: 5px solid yellow;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+main h1 {
+  margin: 20px;
+  text-align: center;
+}
+.course h2 {
+  color: #000c2e;
+  margin-top: 5px;
+}
+.course ul {
+  padding-left: 20px;
+  text-align: justify;
+}
+.course li::marker {
+  color: #000c2e;
+}
+
+/*Home page main  */
+img {
+  background-position: center;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+}
+h1 {
+  text-align: center;
+}
+/*Course highlight content styling  */
+
+#highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+.highlights-card {
   display: inline-block;
-width: 100%;
+  width: 100%;
   padding: 16px;
   text-align: center;
-  background-color:rgb(242, 189, 219);
-  color: #000C2E;
-   border: 5px solid yellow;
-   margin-bottom: 10px;
-   border-radius: 8px;
+  background-color: rgb(242, 189, 219);
+  color: #000c2e;
+  border: 5px solid yellow;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 section i {
   font-size: 40px;
   margin-bottom: 15px;
 }
 
- /*Sign-up page main  */ 
-
+/*Sign-up page main  */
 
 .form-section {
-      background: white;
-      padding: 2.5rem 3rem;
-      border-radius: 16px;
-      max-width: 500px;
-      width: 90%;
-      text-align: center;
-     margin:0 auto;
-    }
-
- form {
-      display: flex;
-      flex-direction: column;
-           gap: 1rem;
-          
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
-      padding: 0.8rem;
-      border: 3px solid yellow;
-      border-radius: 8px;
-      font-size: 1rem;
-      width: 100%;
-    }
-
-.register-button{
-background-color: #87003a;
-color: rgb(242, 189, 219);
-margin-bottom: 10px; 
-border: none; 
-    text-decoration: none;
-   /*Chatgpt code for button style */ 
-   transition: background-color 0.3s ease-in-out;
-      padding: 0.9rem 2rem;
-      font-size: 1rem;
-      border-radius: 20px;
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
-    .register-button:hover {
-      background-color:yellow;
-      color:#000C2E;
-    }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.8rem;
+  border: 3px solid yellow;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.register-button {
+  background-color: #87003a;
+  color: rgb(242, 189, 219);
+  margin-bottom: 10px;
+  border: none;
+  text-decoration: none;
+  /*Chatgpt code for button style */
+  transition: background-color 0.3s ease-in-out;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+.register-button:hover {
+  background-color: yellow;
+  color: #000c2e;
+}
 form p a {
-  color:#87003a;
- 
+  color: #87003a;
 }
 .form-text {
-   
-           font-size: larger;
+  font-size: larger;
 }
 
-  /*footer */ 
+/*footer styling */
 footer {
-   padding: 20px 20px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #000C2E;
-   color: white;
-   
+  padding: 20px 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000c2e;
+  color: white;
 }
 
- /* Footer*/
-  #social-media {
-    text-align: center;
-    padding: 20px 0;
-   display: flex;
-   justify-content: space-evenly;
-    list-style-type: none;
-  }
-  #social-media i {
-    font-size: 160%;
-    padding: 5%;
-    color: white;
-  }
- footer{
+footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   font-size: small;
- }
- #footer{
+}
+#footer {
   display: flex;
   justify-content: space-around;
- }
- h3{
-  text-align: center;
- }
-.contact{
-  display: inline-grid;
-   background-color: #000C2E;
-        width: 100%;
- 
-    }
-.span{
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+footer p {
+  margin: 0;
+  font-weight: bold;
+  font-size: small;
+}
+footer h3 {
+  text-align: left;
+}
+.span {
   font-weight: bold;
 }
 
-/* Media query: sm (576px and up)*/
-@media screen and (min-width:576px){
-     .navbar-text h1{
-    font-size: x-large;
-      }
- 
-
+/* Footer social media borrowed from love running project*/
+#social-media {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#social-media i {
+  font-size: 160%;
+  padding: 5%;
+  color: white;
 }
 
+
+/* Media query: sm (576px and up)*/
+@media screen and (min-width: 576px) {
+  .navbar-text h1 {
+    font-size: x-large;
+  }
+}
 
 /* Media query: md (768px and up)*/
-@media screen and (min-width:768px){
-  
-#highlights{
-  display: flex;
-  flex-direction: row;
-    
+@media screen and (min-width: 768px) {
+  #highlights {
+    display: flex;
+    flex-direction: row;
+  }
+  .highlights-card {
+    margin-right: 5px;
+  }
 }
-.highlights-card{
-  margin-right: 5px;
-}
-}
-
 
 /* Media query: large screen: (992px and up)*/
-@media screen and (min-width:992px){
-    img{
+@media screen and (min-width: 992px) {
+  img {
     background-position: center;
-        	border-radius: 8px;
-}
-#body{
-  width:80%;
-  max-width: 1650px;
-  margin:0 auto;
-}
- 
+    border-radius: 8px;
+  }
+  #body {
+    width: 80%;
+    max-width: 1650px;
+    margin: 0 auto;
+  }
 }
 
 /* Media query: x-large screen (1200px and up)*/
-@media screen and (min-width:1200px){
-   .navbar-text h1{
+@media screen and (min-width: 1200px) {
+  .navbar-text h1 {
     font-size: xx-large;
-    
   }
 }
