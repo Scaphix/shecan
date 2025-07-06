@@ -136,6 +136,29 @@ h1,h2{
 h1{
     text-align: center;
 }
+  /*Course highlight content styling  */ 
+
+#highlights{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  color:white;
+   border-radius: 8px;
+  
+}
+.highlights-card{
+  display: inline-block;
+width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color:rgb(242, 189, 219);
+  color: #000C2E;
+   border: 5px solid yellow;
+}
+i {
+  font-size: 40px;
+}
+
  /*Sign-up page main  */ 
 
 
