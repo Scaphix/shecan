@@ -32,7 +32,7 @@ a.nav-link.active:hover {
   text-transform: uppercase;
   color: #02164c;
 }
-.navbar-text h1 {
+.navbar-text h2 {
   font-size: medium;
 }
 
@@ -43,6 +43,10 @@ li {
   margin: 0 20px;
 }
 
+#logo{
+  width:50px;
+  height:50px;
+}
 
 /*Home page header hero image */
 .top {
@@ -266,7 +270,7 @@ footer h3 {
 
 /* Media query: sm (576px and up)*/
 @media screen and (min-width: 576px) {
-  .navbar-text h1 {
+  .navbar-text h2 {
     font-size: x-large;
   }
 }
@@ -289,6 +293,10 @@ footer h3 {
   flex-basis: auto;
   
 }
+#logo{
+  width:80px;
+  height:80px;
+}
 
 }
 
@@ -303,7 +311,7 @@ footer h3 {
 
 /* Media query: x-large screen (1200px and up)*/
 @media screen and (min-width: 1200px) {
-  .navbar-text h1 {
+  .navbar-text h2 {
     font-size: xx-large;
   }
 }
