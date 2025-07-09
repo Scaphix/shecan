@@ -39,7 +39,6 @@
       sizes="16x16"
       href="assets/images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
     <!--style.css link-->
     <link rel="stylesheet" href="assets/style.css" />
     <!--Google fonts-->
@@ -89,7 +88,7 @@
       </nav>
       <section class="top" id="hero">
         <div class="content">
-          <div><h1>Welcome to SHECAN training center!</h1></div>
+          <div><h2>Welcome to SHECAN training center!</h2></div>
           <div><p>A safe place for women since 2008.</p></div>
           <div>
             <a href="signup.html" class="btn btn-primary btn-lg button"
@@ -102,13 +101,23 @@
     <main>
       <!-- Content Area-->
       <section id="course-offerts">
-        <h1>Our Self-Defense Courses</h1>
+        <h2>Our Self-Defense Courses</h2>
         <div class="course">
-          <img
-            src="assets/images/individual.jpg"
-            alt="Woman performing palm heel strike"
-          />
-          <a href="signup.html"><h2>Individual Course</h2> </a>
+           <picture>
+            <source
+              srcset="assets/images/individual_375.jpg"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="assets/images/individual_768.jpg"
+              media="(max-width:768px)"
+            />
+            <img
+              src="assets/images/individual_1024.jpg"
+              alt="Young woman performing palm heel strike"
+            />
+          </picture>
+          <h2><a href="signup.html">Individual Course </a></h2>
 
           <ul>
             <li>
@@ -130,11 +139,22 @@
         </div>
 
         <div class="course">
-          <img
-            src="assets/images/group.jpg"
-            alt="Old women learning to fight"
-          />
-          <a href="signup.html"><h2>Group Course</h2></a>
+          <picture>
+            <source
+              srcset="assets/images/group_375.jpg"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="assets/images/group_768.jpg"
+              media="(max-width:768px)"
+            />
+            <img
+              src="assets/images/group_1024.jpg"
+              alt="Old women learning to fight"
+            />
+          </picture>
+
+          <h2><a href="signup.html">Group Course</a></h2>
           <ul>
             <li>Train in a supportive, empowering small-group environment</li>
             <li>Structured curriculum over several weeks ( 6 sessions)</li>
@@ -154,7 +174,7 @@
       </section>
 
       <section>
-        <h1>Course highlights</h1>
+        <h2>Course highlights</h2>
         <div id="highlights">
           <div class="highlights-card">
             <div><i class="fa-regular fa-thumbs-up"></i></div>
