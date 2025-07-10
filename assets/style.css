@@ -8,42 +8,21 @@ body {
 }
 /*Adding background images */
 #hero {
-  background-image: url("../assets/images/hero_1024.jpg");
-  background-image: image-set(
-    url("../assets/images/hero_375.jpg") 375w,
-    url("../assets/images/hero_768.jpg") 768w
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
+  background: url("../assets/images/hero_768.jpg") no-repeat center center/cover;
+    width: 100%;
   height: 500px;
   min-height: 500px;
 }
 #about {
-  background-image: url("../assets/images/community_1024.jpg");
-  background-image: image-set(
-    url("../assets/images/community_375.jpg") 375w,
-    url("../assets/images/community_768.jpg") 768w
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../assets/images/community_768.jpg") no-repeat center center/cover;
   width: 100%;
   height: 500px;
   min-height: 500px;
 }
 
 #signup {
-background-image: url("../assets/images/signup_1024.jpg");
-  background-image: image-set(
-    url("../assets/images/signup_375.jpg") 375w,
-    url("../assets/images/signup_768.jpg") 768w
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
+background: url("../assets/images/signup_768.jpg") no-repeat center center/cover;
+    width: 100%;
   height: 500px;
   min-height: 500px;
 }
@@ -306,6 +285,7 @@ footer h3 {
   color: white;
 }
 
+
 /* Media query: sm (576px and up)*/
 @media screen and (min-width: 576px) {
   .navbar-text h2 {
@@ -348,6 +328,21 @@ footer h3 {
     background-position: center;
     border-radius: 8px;
   }
+
+/* Background responsiveness*/
+   #hero {
+  background-image: url("../assets/images/hero_1024.jpg");
+}
+
+    #about{
+    background-image: url("../assets/images/community_1024.jpg");
+    }
+    
+    #signup{
+  background-image: url("../assets/images/signup_1024.jpg");
+}
+
+
 }
 
 /* Media query: x-large screen (1200px and up)*/
@@ -355,4 +350,8 @@ footer h3 {
   .navbar-text h2 {
     font-size: xx-large;
   }
-}
+  
+  
+} 
+
+
