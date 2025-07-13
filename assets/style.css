@@ -135,13 +135,13 @@ h2 a:hover{
   background-color: lightgoldenrodyellow;
 }
 
-main h1 {
+section >h2 {
   margin: 20px;
   text-align: center;
 }
 .course h2 {
   color: #02164c;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .course ul {
   padding-left: 20px;
