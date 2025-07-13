@@ -1,7 +1,7 @@
 body {
   font-family: "poppins", sans-serif;
   background-color: white;
-  color: #444;
+  color: #02164c;
   min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
@@ -83,10 +83,10 @@ li {
   align-items: center;
   min-height: 120px;
   background-color: rgba(242, 189, 219, 0.6);
-  color: #000c2e;
+  color: #02164c;
 }
 .button {
-  background-color: #000c2e;
+  background-color: #02164c;
   color: rgb(242, 189, 219);
   margin-bottom: 10px;
   border: none;
@@ -126,8 +126,13 @@ header p {
   margin-bottom: 10px;
 }
 
-a {
+h2 a {
   text-decoration: none;
+  color:#02164c;
+}
+
+h2 a:hover{
+  background-color: lightgoldenrodyellow;
 }
 
 main h1 {
@@ -135,7 +140,7 @@ main h1 {
   text-align: center;
 }
 .course h2 {
-  color: #000c2e;
+  color: #02164c;
   margin-top: 5px;
 }
 .course ul {
@@ -143,7 +148,7 @@ main h1 {
   text-align: justify;
 }
 .course li::marker {
-  color: #000c2e;
+  color: #02164c;
 }
 
 /*Home page main  */
@@ -174,7 +179,7 @@ h1 {
   padding: 16px;
   text-align: center;
   background-color: rgb(242, 189, 219);
-  color: #000c2e;
+  color: #02164c;
   border: 5px solid yellow;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -226,7 +231,7 @@ input[type="password"] {
 }
 .register-button:hover {
   background-color: yellow;
-  color: #000c2e;
+  color: #02164c;
 }
 form p a {
   color: #87003a;
@@ -241,7 +246,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #000c2e;
+  background-color: #02164c;
   color: white;
 }
 
