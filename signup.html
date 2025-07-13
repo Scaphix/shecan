@@ -45,6 +45,16 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Georama:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald&family=Quicksand:wght@300..700&family=WDXL+Lubrifont+JP+N&display=swap");
     </style>
+
+    <style>
+      main{
+        flex:1 0 auto;
+      }
+
+    </style>
+
+
+
   </head>
   <body>
     <header>
@@ -125,11 +135,9 @@
             placeholder="Create Password"
             required
           />
-          <div class="mb-3">
-  
-  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Comments" rows="3"></textarea>
-</div>
+          
           <div class="radio-buttons">
+          <div>
             <label for="Individial">Individial class</label>
             <input
               name="course_preference"
@@ -139,7 +147,8 @@
               required
               checked
             />
-            <br />
+            </div>
+            <div >
             <label for="group">Group class</label>
             <input
               name="course_preference"
@@ -148,14 +157,15 @@
               value="group"
               required
             />
-            <br />
+            
+          </div>
           </div>
           <button type="submit" class="register-button">
             Start Your Training
           </button>
         </form>
 
-        <p class="form-text">
+        <p >
           Already a member? <a href="signup.html">Log in</a>
         </p>
       </div>

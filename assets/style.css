@@ -164,6 +164,7 @@ h2 {
 }
 h1 {
   text-align: center;
+  margin-top: 20px;
 }
 /*Course highlight content styling  */
 
@@ -238,6 +239,13 @@ form p a {
 }
 .form-text {
   font-size: larger;
+}
+
+.radio-buttons{
+  width:100%;
+  display:flex;
+ justify-content: space-between;
+
 }
 
 /*footer styling */
