@@ -1,11 +1,12 @@
 body {
   font-family: "poppins", sans-serif;
   background-color: white;
-  color: #02164c;
+  color: #444;
   min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 /*Adding background images */
 #hero {
   background: url("../assets/images/hero_768.jpg") no-repeat center center/cover;
@@ -118,7 +119,7 @@ header p {
   justify-content: center;
 }
 .course {
-  background-color: #fff;
+  background-color: white;
   border: 5px solid yellow;
   border-radius: 8px;
   width: 100%;
@@ -132,7 +133,7 @@ h2 a {
 }
 
 h2 a:hover{
-  background-color: lightgoldenrodyellow;
+  background-color: #f2bddb;
 }
 
 section >h2 {
@@ -268,6 +269,7 @@ footer p {
   margin: 0;
   font-weight: bold;
   font-size: small;
+  text-align: center;
 }
 footer h3 {
   text-align: left;
@@ -358,5 +360,10 @@ footer h3 {
   
   
 } 
+
+
+
+
+
 
 
