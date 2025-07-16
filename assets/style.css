@@ -52,10 +52,9 @@ a.nav-link.active:hover {
 .navbar-text {
   text-transform: uppercase;
   color: #02164c;
-}
-.navbar-text h2 {
   font-size: medium;
 }
+
 
 #navbarText {
   justify-content: flex-end;
@@ -295,7 +294,7 @@ footer h3 {
 
 /* Media query: sm (576px and up)*/
 @media screen and (min-width: 576px) {
-  .navbar-text h2 {
+  .navbar-text {
     font-size: x-large;
   }
 }
@@ -354,7 +353,7 @@ footer h3 {
 
 /* Media query: x-large screen (1200px and up)*/
 @media screen and (min-width: 1200px) {
-  .navbar-text h2 {
+  .navbar-text {
     font-size: xx-large;
   }
   
