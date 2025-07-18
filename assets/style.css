@@ -198,8 +198,9 @@ form {
 }
 
 label{
-  padding:5px;
+  margin-top: 5px;
 }
+
 input {
   padding: 0.4rem;
   border: 1px solid lightgrey;
