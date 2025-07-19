@@ -241,7 +241,10 @@ input {
     border: none;
   
 }
-
+.modal button a {
+  color:white;
+  text-decoration: none;
+}
 /*footer styling */
 footer {
   padding: 20px 20px;

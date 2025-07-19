@@ -103,7 +103,8 @@
                   </select>
                 </div>
                 <div class="col-12 mb-3">
-                  <textarea class="form-control" id="message" placeholder="Message*" rows="3" required></textarea>
+                  <label for="message">Message*</label>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <div class="col-12  mb-3 ">
                   <button type="submit" class="register-button">
@@ -128,12 +129,12 @@
                     <div class="modal-body">
                       <form>
                         <div class="mb-3">
-                          <label for="recipient-name" class="col-form-label">Full Name:</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <label for="recipient-email" class="col-form-label">Email Address*:</label>
+                          <input type="email" class="form-control" id="recipient-email" required>
                         </div>
                         <div class="mb-3">
-                          <label for="recipient-password" class="col-form-label">Password:</label>
-                          <input type="password" class="form-control" id="recipient-password">
+                          <label for="recipient-password" class="col-form-label">Password*:</label>
+                          <input type="password" class="form-control" id="recipient-password" required>
                         </div>
                       </form>
                     </div>
