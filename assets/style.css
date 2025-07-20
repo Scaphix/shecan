@@ -282,7 +282,7 @@ footer h3 {
 /* Footer social media borrowed from love running project*/
 #social-media {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0px 0px 0px;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -292,7 +292,9 @@ footer h3 {
   padding: 5%;
   color: white;
 }
-
+footer ul{
+  margin-bottom: 0px;
+}
 
 /* Media query: sm (576px and up)*/
 @media screen and (min-width: 576px) {
